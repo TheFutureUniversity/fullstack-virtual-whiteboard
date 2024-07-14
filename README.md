@@ -1,4 +1,5 @@
 # Assignment: Virtual Whiteboard
+![Virtual White Board](https://0x0.st/XLfJ.png)
 
 ## Objective:
 Build a virtual whiteboard application that allows real-time collaboration between multiple users. The whiteboard should support basic drawing functionalities as depicted in the provided image, including a pencil, line, rectangle, delete button, and color picker in the toolbar.
