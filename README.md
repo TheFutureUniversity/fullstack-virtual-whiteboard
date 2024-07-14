@@ -80,3 +80,33 @@ Build a virtual whiteboard application that allows real-time collaboration betwe
 ## Sample API Endpoints:
 
 - **Create Whiteboard Session:**
+```
+POST /api/sessions
+Body: {
+  "sessionId": "unique-id"
+}
+```
+
+
+- **Save Whiteboard Session:**
+```
+PUT /api/sessions/
+Body: {
+  "sessionData": "serialized-whiteboard-data"
+}
+```
+
+- **Retrieve Whiteboard Session:**
+```
+GET /api/sessions/
+```
+
+
+## Sample React Components:
+
+- **WhiteboardCanvas:** Component for the drawing canvas.
+- **Toolbox:** Component for selecting drawing tools and colors, as depicted in the provided image.
+- **SaveLoadControls:** Component for saving and loading whiteboard sessions.
+
+Good luck! If you have any questions, feel free to ask.
+
